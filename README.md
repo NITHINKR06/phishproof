@@ -613,6 +613,14 @@ PhishProof/
 
 ---
 
+1. railway.app → New Project
+2. Deploy from GitHub → select PhishProof repo
+3. + New Service → Add MySQL
+4. Railway auto-injects: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER, MYSQLPASSWORD
+5. Open MySQL service → Query tab → paste sql/schema.sql contents → Run
+6. Your app deploys at: https://phishproof-xxxx.up.railway.app
+
+
 ## License
 
 This project is intended for **educational and authorized internal training use only**.
